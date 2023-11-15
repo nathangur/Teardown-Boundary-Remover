@@ -1,7 +1,7 @@
 # Boundary Remover
 An simple DLL to remove the boundary in any Teardown map.
 
-Requires 1.5.0
+Requires 1.5.1
 
 Hotkey to disable boundary is f8. Once removed it cannot be added back.
 
