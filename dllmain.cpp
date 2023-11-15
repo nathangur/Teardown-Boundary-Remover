@@ -31,7 +31,7 @@ void CheckKeyAndSetMemory() {
 
     while (ourModule != NULL) {
         if (GetAsyncKeyState(VK_F8) & 0x8000) { // F9
-            boundaryAddr = FindDMAAddy(hProcess, moduleBase + 0x006F7E90, offsets);
+            boundaryAddr = FindDMAAddy(hProcess, moduleBase + 0x006F4F40, offsets);
 
             if (boundaryAddr != 0) {
                 int newValue = 0;
